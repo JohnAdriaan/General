@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{3f5ac0f9-4bcf-4a54-8951-653f10960d6e}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Debug.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FD\FD.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)File\File.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Address.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Listen.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Service.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Socket.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\TCP.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\UDP.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)String\String.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\HTTP.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\Request.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\Response.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\URI.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\XML\Tag.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\XML\XML.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FD\FD.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)File\File.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)General.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\MT.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Mutex.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Mutex.Lock.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\NoMutex.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\NoMutex.Lock.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.Global.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.Local.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Thread.Attr.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Thread.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Address.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\BSD.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Listen.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Socket.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\TCP.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\UDP.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)String\String.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTML\HTML.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\HTTP.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\Request.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\Response.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\URI.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\WWW.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\XML\Tag.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\XML\XML.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory).gitignore" />
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)MT\Atomic.tt" />
+    <None Include="$(MSBuildThisFileDirectory)MT\Queue.Node.ii" />
+    <None Include="$(MSBuildThisFileDirectory)MT\Queue.tt" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

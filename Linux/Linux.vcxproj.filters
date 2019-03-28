@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MT">
+      <UniqueIdentifier>{f6ab8b3f-4e5c-49f7-9867-a2d374114665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{0200412f-4598-4181-a444-51114213ec50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FD">
+      <UniqueIdentifier>{3b5c80b0-3b79-43b7-8972-e2701780eda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{c3192ff5-e099-4a53-9dbb-a4736fd5060f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MT\Mutex.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\Mutex.Lock.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\Semaphore.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\Semaphore.Global.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\Semaphore.Local.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MT\Thread.Linux.cc">
+      <Filter>MT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Address.Linux.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Interface.Linux.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Raw.Linux.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Service.Linux.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FD\FD.Linux.cc">
+      <Filter>FD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\File.Linux.cc">
+      <Filter>File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Socket\Interface.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\Raw.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\Service.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\Query.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

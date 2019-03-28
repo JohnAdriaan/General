@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="String">
+      <UniqueIdentifier>{a96f6c62-0f96-42ab-b804-444239876c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FD">
+      <UniqueIdentifier>{e9ebaa70-c6b1-4ca6-a7e5-15c3da8e23fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{09d348dc-60cd-4a74-8813-cceecd4778c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MT">
+      <UniqueIdentifier>{ce2448b2-5159-492d-a8cb-ca86ffd062ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WWW">
+      <UniqueIdentifier>{c91396da-c490-4fd9-8cff-8340b767b9c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WWW\HTML">
+      <UniqueIdentifier>{ed739603-5483-4ee4-89a1-3de14ebc994a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WWW\HTTP">
+      <UniqueIdentifier>{6b984a1a-ac85-4523-bba2-c1c7fbe9b06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{1f06a76d-1a2c-48e9-aa59-80024acf2dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WWW\XML">
+      <UniqueIdentifier>{fd4f2e4c-2a76-4db9-9e4b-9ca7a6c33e2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)String\String.cc">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Debug.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FD\FD.cc">
+      <Filter>FD</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\HTTP.cc">
+      <Filter>WWW\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\Request.cc">
+      <Filter>WWW\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\Response.cc">
+      <Filter>WWW\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\HTTP\URI.cc">
+      <Filter>WWW\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Address.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Listen.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Service.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\Socket.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\TCP.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Socket\UDP.cc">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)File\File.cc">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\XML\Tag.cc">
+      <Filter>WWW\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WWW\XML\XML.cc">
+      <Filter>WWW\XML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)String\String.hh">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)General.hh" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FD\FD.hh">
+      <Filter>FD</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)File\File.hh">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\MT.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Mutex.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Mutex.Lock.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\NoMutex.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\NoMutex.Lock.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.Global.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Semaphore.Local.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Thread.Attr.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MT\Thread.hh">
+      <Filter>MT</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\WWW.hh">
+      <Filter>WWW</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTML\HTML.hh">
+      <Filter>WWW\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\HTTP.hh">
+      <Filter>WWW\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\Request.hh">
+      <Filter>WWW\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\Response.hh">
+      <Filter>WWW\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\HTTP\URI.hh">
+      <Filter>WWW\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Address.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\BSD.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Listen.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\Socket.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\TCP.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Socket\UDP.hh">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\XML\XML.hh">
+      <Filter>WWW\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WWW\XML\Tag.hh">
+      <Filter>WWW\XML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)MT\Atomic.tt">
+      <Filter>MT</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)MT\Queue.Node.ii">
+      <Filter>MT</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)MT\Queue.tt">
+      <Filter>MT</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory).gitignore" />
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>
